@@ -1,0 +1,33 @@
+.card_List::-webkit-scrollbar{
+    display: none;
+}
+.custom-image {
+    max-width: none !important;
+    height: auto !important;
+}
+@media (max-width : 800px){
+    .title-cards{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .title-cards h2{
+        font-size: 20px;
+    }
+    .card_List img{
+        width: 200px;
+    }
+    .card_List p {
+        font-size: 12px;
+    }
+}
+@media (max-width : 500px){
+    .title-cards h2{
+        font-size: 15px;
+    }
+    .card_List img{
+        width: 165px;
+    }
+    .card_List p {
+        font-size: 10px;
+    }
+}
